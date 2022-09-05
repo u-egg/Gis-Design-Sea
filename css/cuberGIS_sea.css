@@ -1,0 +1,14 @@
+@import url(https://webfontworld.github.io/kopus/KoPubWorldDotum.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* font-size: 62.5%; */
+    overflow: hidden;
+    font-family: 'KoPubWorldDotum';
+    font-size: 14px;
+}
