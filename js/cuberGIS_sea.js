@@ -18,3 +18,24 @@ var marker = new kakao.maps.Marker({
 
 // 마커가 지도 위에 표시되도록 설정합니다
 marker.setMap(map);
+
+// 상단 네비 버튼 이벤트
+function btn_swap_1(){
+    $("#nav_btn_1").attr("class", "btn_on")
+    $("#nav_btn_2").attr("class", "btn")
+}
+
+function btn_swap_2(){
+    $("#nav_btn_2").attr("class", "btn_on")
+    $("#nav_btn_1").attr("class", "btn")
+}
+
+function search_btn_1(){ // 검색창 추가 필요
+    $(".search_btn_on").css("display","none");
+    $(".search_btn_off").css("display","block");
+}
+
+function search_btn_2(){
+    $(".search_btn_off").css("display","none");
+    $(".search_btn_on").css("display","block");
+}

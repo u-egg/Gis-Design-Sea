@@ -3,12 +3,173 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 html {
-    /* font-size: 62.5%; */
     overflow: hidden;
     font-family: 'KoPubWorldDotum';
     font-size: 14px;
+}
+
+header{
+    margin: 0 auto;
+    height: 56px;
+    border-bottom: 3px solid #2465c8;
+    background: #fff;
+    text-align: center;
+    margin: 0 auto;
+}
+
+header img{
+    position: absolute;
+    width: 185px;
+    height: 40px;
+    left: 20px;
+    top: 8px;
+}
+
+header .nav_bar{
+    width: 600px;
+    display: flex;
+    height: 35px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 10.5px;
+}
+
+header .btn{
+    width: 130px;
+    border: none;
+    color: #6b6b6b;
+    background-color: rgba(217,217,217,0.4);
+
+    border: 1px solid #dedede;
+    border-radius: 35px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1;
+    padding: 11px 0;
+    font-weight: bold;
+    color: #6b6b6b;
+    cursor: pointer;
+    margin-top: 10.5px;
+}
+
+.btn_on{
+    width: 130px;
+    border: none;
+    color: #fff;
+    background-color: #2465c8;
+    border: 1px solid #dedede;
+    position: relative;
+    z-index: 9999; /*z-index 는 position 설정이 안되어있으면 적용이 안된다.*/
+    border-radius: 35px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1;
+    padding: 11px 0;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10.5px;
+}
+
+header .btn_2{
+    width: 80px;
+    height: 35px;
+    background: #fff;
+    border-radius: 35px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1;
+    padding: 11px 0;
+    font-weight: bold;
+    color: #6b6b6b;
+    border: 1px solid #dedede;
+    cursor: pointer;
+    margin-top: 10.5px;
+}
+
+header .btn_2:hover{
+    border: 1px solid #666;
+}
+
+header .search_btn_on{
+    display: inline-block;
+    border: 1px solid #dedede;
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    padding: 9px 9px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    right: 280px;
+    top: 10.5px;
+}
+
+header .search_btn_off{
+    display: none;
+    border: 1px solid #dedede;
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    padding: 9px 9px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    right: 280px;
+    top: 10.5px;
+}
+
+header .btn_3{
+    display: inline-block;
+    border: 2px solid #1aaebf;
+    color: #1aaebf;
+    height: 35px;
+    font-size: 13px;
+    padding: 5px 9px;
+    border-radius: 30px;
+    cursor: pointer;
+    background: #fff;
+    position: absolute;
+    right: 130px;
+    top: 10.5px;
+}
+
+header .btn_4{
+    display: inline-block;
+    border: 1px solid #2465c8;
+    background-color: #fff;
+    color: #2465c8;
+    width: 35px;
+    height: 35px;
+    padding: 9px 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    right: 80px;
+    top: 10.5px;
+
+}
+
+header .btn_5{
+    display: inline-block;
+    border: 1px solid #dedede;
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    padding: 9px 9px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+    position: absolute;
+    right: 30px;
+    top: 10.5px;
+    text-align: center;
 }
