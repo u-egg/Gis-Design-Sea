@@ -173,3 +173,72 @@ header .btn_5{
     top: 10.5px;
     text-align: center;
 }
+
+article{
+    display: flex;
+}
+
+#nav{
+    width: 60px;
+    height: 100vh;
+    background-color: #2465c8;
+    font-size: 11px;
+}
+
+#nav div{
+    height: 80px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+#nav div i{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+#nav div:hover{
+    background-color: #053863;
+}
+
+#side_bar{
+    width: 250px;
+    height: 100vh;
+    border-right: 1px solid #dedede;
+}
+
+#side_bar .top{
+    height: 60px;
+    background: #10a7a0;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 60px;
+    padding-left: 20px;
+}
+
+.que {
+    position: relative;
+    height: 46px;
+    line-height: 46px;
+    background: #fff;
+    font-size: 14px;
+    color: #222;
+    padding-left: 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #dedede;
+    transition: all 0.3s;
+}
+
+.anw {
+    margin: 0 auto;
+    padding-left: 20px;
+    height: 100%;
+    max-height: 430px;
+    font-size: 14px;
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(217,217,217,0.4);
+    display: none;
+}

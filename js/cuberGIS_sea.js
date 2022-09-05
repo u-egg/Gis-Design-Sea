@@ -39,3 +39,9 @@ function search_btn_2(){
     $(".search_btn_off").css("display","none");
     $(".search_btn_on").css("display","block");
 }
+
+//사이드바 아코디언 메뉴
+function btn_swap_1(){
+    $("#nav_btn_1").attr("class", "btn_on")
+    $("#nav_btn_2").attr("class", "btn")
+}
