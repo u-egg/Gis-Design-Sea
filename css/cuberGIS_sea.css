@@ -213,7 +213,7 @@ article{
     height: 100vh;
     border-right: 1px solid #dedede;
     display: none;
-    transition: all 0.2s;
+    transition: all 0.3s;
 }
 
 .top{
@@ -309,4 +309,48 @@ article{
     transition: all 0.3s;
     display: none;
     border: 1px solid #dedede;
+}
+
+#map_frame{
+    width: calc(100vw - 310px);
+    transition: all 0.3s;
+    position: relative;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s;
+}
+
+.search_frame{
+    position: absolute;
+    z-index: 9999;
+    right: 275px;
+    margin-top: 10px;
+    width: 450px;
+    height: 35px;
+    background: #fff;
+    border: 1px solid #2465c8;
+    border-radius: 50px;
+    padding: 15px 44px 0 30px;
+    display: none;
+}
+
+.search_frame input{
+    width: 430px;
+    border: none;
+    height: 20px;
+}
+
+.search_frame input:focus{
+    outline: none;
+}
+
+.search_frame i{
+    font-size: 18px;
+}
+.search_frame span{
+    position: absolute;
+    right: 25px;
 }
