@@ -276,10 +276,6 @@ article{
     display: none;
 }
 
-#sea_article{
-    display: none;
-}
-
 .side_nav_close {
     top: 50%;
     width: 22px;
@@ -312,7 +308,7 @@ article{
 }
 
 #map_frame{
-    width: calc(100vw - 310px);
+    width: calc(100vw - 60px);
     transition: all 0.3s;
     position: relative;
 }

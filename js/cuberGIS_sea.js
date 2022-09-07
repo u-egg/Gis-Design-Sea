@@ -23,11 +23,15 @@ marker.setMap(map);
 function btn_swap_1(){
     $("#nav_btn_1").attr("class", "btn_on")
     $("#nav_btn_2").attr("class", "btn")
+    $("#all_article").css("display","none");
+    $("#sea_article").css("display","");
 }
 
 function btn_swap_2(){
     $("#nav_btn_2").attr("class", "btn_on")
     $("#nav_btn_1").attr("class", "btn")
+    $("#all_article").css("display","");
+    $("#sea_article").css("display","none");
 }
 
 function search_btn_1(){
@@ -45,6 +49,9 @@ function search_btn_2(){
 
 //사이드 네비 버튼 이벤트
 function left_nav_btn_1(){
+    
+    $("#map_frame").css("width", "calc(100vw - 310px)")
+
     $("#left_nav_btn_1").attr("class","on");
 
     $("#left_nav_btn_2").attr("class","");
@@ -88,6 +95,9 @@ function left_nav_btn_1(){
 }
 
 function left_nav_btn_2(){
+
+    $("#map_frame").css("width", "calc(100vw - 310px)")
+
     $("#left_nav_btn_2").attr("class","on");
 
     $("#left_nav_btn_1").attr("class","");
@@ -132,6 +142,9 @@ function left_nav_btn_2(){
 }
 
 function left_nav_btn_3(){
+
+    $("#map_frame").css("width", "calc(100vw - 310px)")
+
     $("#left_nav_btn_3").attr("class","on");
 
     $("#left_nav_btn_1").attr("class","");
@@ -176,6 +189,9 @@ function left_nav_btn_3(){
 }
 
 function left_nav_btn_4(){
+
+    $("#map_frame").css("width", "calc(100vw - 310px)")
+
     $("#left_nav_btn_4").attr("class","on");
 
     $("#left_nav_btn_1").attr("class","");
@@ -220,6 +236,9 @@ function left_nav_btn_4(){
 }
 
 function left_nav_btn_5(){
+
+    $("#map_frame").css("width", "calc(100vw - 310px)")
+
     $("#left_nav_btn_5").attr("class","on");
 
     $("#left_nav_btn_1").attr("class","");
@@ -262,7 +281,6 @@ function left_nav_btn_5(){
     $("#side_bar_part_4").css("display","none");
     }
 }
-
 
 //사이드바 아코디언 메뉴
 $(".que").click(function() {
