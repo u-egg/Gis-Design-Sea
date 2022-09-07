@@ -40,6 +40,21 @@ function search_btn_2(){
     $(".search_btn_on").css("display","block");
 }
 
+
+//사이드 네비 버튼 이벤트
+function left_nav_btn_1(){
+    $("#left_nav_btn_1").attr("class","on");
+
+    $("#left_nav_btn_2").attr("class","");
+    $("#left_nav_btn_3").attr("class","");
+    $("#left_nav_btn_4").attr("class","");
+    $("#left_nav_btn_5").attr("class","");
+
+    $("#side_bar").css("display","block");
+    $("#side_bar_part_1").css("display","block");
+}
+
+
 //사이드바 아코디언 메뉴
 $(".que").click(function() {
     $(this).next(".anw").stop().slideToggle(300);

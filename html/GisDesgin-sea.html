@@ -18,18 +18,18 @@
 </head>
 
 <body>
-    <header>        
+    <header>
 
         <img src="../asset/큐버로고.png">
 
         <!--상단 대만/전체 버튼 이벤트 (기능 추가 필요)-->
-            <button id="nav_btn_1" onclick="btn_swap_1()" class="btn">대만용</button>
-            <button id="nav_btn_2" onclick="btn_swap_2()" class="btn_on" style="margin-left: -30px;">전체</button>
+        <button id="nav_btn_1" onclick="btn_swap_1()" class="btn">대만용</button>
+        <button id="nav_btn_2" onclick="btn_swap_2()" class="btn_on" style="margin-left: -30px;">전체</button>
 
-            <button class="btn_2" style="margin-left:30px;">항계안전</button>
-            <button class="btn_2">바다로드뷰</button>
-            <button class="btn_2">탐험해</button>
-            <button class="btn_2">KOMC</button>
+        <button class="btn_2" style="margin-left:30px;">항계안전</button>
+        <button class="btn_2">바다로드뷰</button>
+        <button class="btn_2">탐험해</button>
+        <button class="btn_2">KOMC</button>
 
         <!--검색버튼-->
         <button class="search_btn_on" onclick="search_btn_1()"><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -44,121 +44,134 @@
 
         <!--왼쪽 네비게이션-->
         <section id="nav">
-            <div>
-                <i class="fa-solid fa-globe fa-2x"></i><br>
+            <div id="left_nav_btn_1" onclick="left_nav_btn_1()" class="">
+                <i class="fa-solid fa-globe"></i><br>
                 해양정보<br>서비스
             </div>
-            <div>
-                <i class="fa-solid fa-earth-americas fa-2x"></i><br>
-                개방해<br>소개</div>
-            <div>
-                <i class="fa-solid fa-gear fa-2x"></i><br>
-                오픈 API<br>소개</div>
-            <div>
-                <i class="fa-solid fa-chart-pie fa-2x"></i><br>
-                통계<br>서비스</div>
-            <div><i class="fa-solid fa-book fa-2x" style="margin-top: 20px;"></i><br>
+            <div id="left_nav_btn_2" onclick="left_nav_btn_2()" class="">
+                <i class="fa-solid fa-earth-americas"></i><br>
+                개방해<br>소개
+            </div>
+            <div id="left_nav_btn_3" onclick="left_nav_btn_3()" class="">
+                <i class="fa-solid fa-gear"></i><br>
+                오픈 API<br>소개
+            </div>
+            <div id="left_nav_btn_4" onclick="left_nav_btn_4()" class="">
+                <i class="fa-solid fa-chart-pie"></i><br>
+                통계<br>서비스
+            </div>
+            <div id="left_nav_btn_5" onclick="left_nav_btn_5()" class="">
+                <i class="fa-solid fa-book" style="margin-top: 20px;"></i><br>
                 이용안내</div>
         </section>
 
         <!--사이드바-->
         <section id="side_bar">
-            <div class="top">
-                해양정보서비스
+
+            <!--part_1-->
+            <div id="side_bar_part_1">
+
+                <div class="top">
+                    해양정보서비스
+                </div>
+                <div class="body">
+
+                    <div class="que">
+                        <i class="fa-solid fa-book" style="margin-right: 10px;"></i>
+                        해양산업
+                    </div>
+                    <div class="anw">
+                        추후 서비스 예정
+                    </div>
+
+                    <div class="que">
+                        <i class="fa-solid fa-droplet" style="margin-right: 10px;"></i>
+                        해양환경
+                    </div>
+                    <div class="anw">
+                        추후 서비스 예정
+                    </div>
+
+                    <div class="que">
+                        <i class="fa-solid fa-ship" style="margin-right: 10px;"></i>
+                        국제원양
+                    </div>
+                    <div class="anw">
+                        추후 서비스 예정
+                    </div>
+
+                    <div class="que">
+                        <i class="fa-solid fa-fish" style="margin-right: 10px;"></i>
+                        해양수산
+                    </div>
+                    <div class="anw">
+                        추후 서비스 예정
+                    </div>
+
+                    <div class="que">
+                        <i class="fa-solid fa-otter" style="margin-right: 10px;"></i>
+                        어업자원
+                    </div>
+                    <div class="anw">
+                        추후 서비스 예정
+                    </div>
+
+                    <div class="que">
+                        <i class="fa-solid fa-water" style="margin-right: 10px;"></i>
+                        어촌양식
+                    </div>
+                    <div class="anw">
+                        추후 서비스 예정
+                    </div>
+
+                    <div class="que">
+                        <i class="fa-solid fa-ship" style="margin-right: 10px;"></i>
+                        해운물류
+                    </div>
+                    <div class="anw">
+                        추후 서비스 예정
+                    </div>
+
+                    <div class="que">
+                        <i class="fa-solid fa-gear" style="margin-right: 10px;"></i>
+                        항만운영
+                    </div>
+                    <div class="anw">
+                        추후 서비스 예정
+                    </div>
+
+                    <div class="que">
+                        <i class="fa-solid fa-shield" style="margin-right: 10px;"></i>
+                        해사안전
+                    </div>
+                    <div class="anw">
+                        추후 서비스 예정
+                    </div>
+
+                    <div class="que">
+                        <i class="fa-solid fa-anchor" style="margin-right: 10px;"></i>
+                        항만건설
+                    </div>
+                    <div class="anw">
+                        추후 서비스 예정
+                    </div>
+
+                    <div class="que">
+                        <i class="fa-solid fa-handshake" style="margin-right: 10px;"></i>
+                        공통행정
+                    </div>
+                    <div class="anw">
+                        추후 서비스 예정
+                    </div>
+                </div>
             </div>
-            <div class="body">
-                
-                <div class="que">
-                    <i class="fa-solid fa-book" style="margin-right: 10px;"></i>
-                    해양산업
-                </div>
-                <div class="anw">
-                    추후 서비스 예정
-                </div>
 
-                <div class="que">
-                    <i class="fa-solid fa-droplet" style="margin-right: 10px;"></i>
-                    해양환경
-                </div>
-                <div class="anw">
-                    추후 서비스 예정
-                </div>
-
-                <div class="que">
-                    <i class="fa-solid fa-ship" style="margin-right: 10px;"></i>
-                    국제원양
-                </div>
-                <div class="anw">
-                    추후 서비스 예정
-                </div>
-
-                <div class="que">
-                    <i class="fa-solid fa-fish" style="margin-right: 10px;"></i>
-                    해양수산
-                </div>
-                <div class="anw">
-                    추후 서비스 예정
-                </div>
-
-                <div class="que">
-                    <i class="fa-solid fa-otter" style="margin-right: 10px;"></i>
-                    어업자원
-                </div>
-                <div class="anw">
-                    추후 서비스 예정
-                </div>
-
-                <div class="que">
-                    <i class="fa-solid fa-water" style="margin-right: 10px;"></i>
-                    어촌양식
-                </div>
-                <div class="anw">
-                    추후 서비스 예정
-                </div>
-
-                <div class="que">
-                    <i class="fa-solid fa-ship" style="margin-right: 10px;"></i>
-                    해운물류
-                </div>
-                <div class="anw">
-                    추후 서비스 예정
-                </div>
-
-                <div class="que">
-                    <i class="fa-solid fa-gear" style="margin-right: 10px;"></i>
-                    항만운영
-                </div>
-                <div class="anw">
-                    추후 서비스 예정
-                </div>
-
-                <div class="que">
-                    <i class="fa-solid fa-shield" style="margin-right: 10px;"></i>
-                    해사안전
-                </div>
-                <div class="anw">
-                    추후 서비스 예정
-                </div>
-
-                <div class="que">
-                    <i class="fa-solid fa-anchor" style="margin-right: 10px;"></i>
-                    항만건설
-                </div>
-                <div class="anw">
-                    추후 서비스 예정
-                </div>
-
-                <div class="que">
-                    <i class="fa-solid fa-handshake" style="margin-right: 10px;"></i>
-                    공통행정
-                </div>
-                <div class="anw">
-                    추후 서비스 예정
-                </div>
+            <!--part_2-->
+            <div id="side_bar_part_2">
 
             </div>
         </section>
-        
+
         <!--지도-->
         <section id="map">지도</section>
     </article>

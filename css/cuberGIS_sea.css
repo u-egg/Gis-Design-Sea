@@ -201,10 +201,18 @@ article{
     background-color: #053863;
 }
 
+#nav .on{
+    background-color: #053863;
+}
+#nav i{
+    font-size: 22px;
+}
+
 #side_bar{
     width: 250px;
     height: 100vh;
     border-right: 1px solid #dedede;
+    display: none;
 }
 
 #side_bar .top{
@@ -240,5 +248,9 @@ article{
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: rgba(217,217,217,0.4);
+    display: none;
+}
+
+#side_bar_part_1{
     display: none;
 }
