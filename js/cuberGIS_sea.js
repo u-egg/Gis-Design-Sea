@@ -50,8 +50,111 @@ function left_nav_btn_1(){
     $("#left_nav_btn_4").attr("class","");
     $("#left_nav_btn_5").attr("class","");
 
+    if($("#side_bar_part_1").css("display") == 'block'){
+        $("#side_bar").css("display","none");
+        $("#side_bar_part_1").css("display","none");
+        $("#left_nav_btn_1").attr("class","");
+    }
+    else{
     $("#side_bar").css("display","block");
     $("#side_bar_part_1").css("display","block");
+    $("#side_bar_part_2").css("display","none");
+    $("#side_bar_part_3").css("display","none");
+    $("#side_bar_part_4").css("display","none");
+    $("#side_bar_part_5").css("display","none");
+    }
+}
+
+function left_nav_btn_2(){
+    $("#left_nav_btn_2").attr("class","on");
+
+    $("#left_nav_btn_1").attr("class","");
+    $("#left_nav_btn_3").attr("class","");
+    $("#left_nav_btn_4").attr("class","");
+    $("#left_nav_btn_5").attr("class","");
+
+    if($("#side_bar_part_2").css("display") == 'block'){
+        $("#side_bar").css("display","none");
+        $("#side_bar_part_2").css("display","none");
+        $("#left_nav_btn_2").attr("class","");
+    }
+    else{
+    $("#side_bar").css("display","block");
+    $("#side_bar_part_2").css("display","block");
+    $("#side_bar_part_1").css("display","none");
+    $("#side_bar_part_3").css("display","none");
+    $("#side_bar_part_4").css("display","none");
+    $("#side_bar_part_5").css("display","none");
+    }
+}
+
+function left_nav_btn_3(){
+    $("#left_nav_btn_3").attr("class","on");
+
+    $("#left_nav_btn_1").attr("class","");
+    $("#left_nav_btn_2").attr("class","");
+    $("#left_nav_btn_4").attr("class","");
+    $("#left_nav_btn_5").attr("class","");
+
+    if($("#side_bar_part_3").css("display") == 'block'){
+        $("#side_bar").css("display","none");
+        $("#side_bar_part_3").css("display","none");
+        $("#left_nav_btn_3").attr("class","");
+    }
+    else{
+    $("#side_bar").css("display","block");
+    $("#side_bar_part_3").css("display","block");
+    $("#side_bar_part_1").css("display","none");
+    $("#side_bar_part_2").css("display","none");
+    $("#side_bar_part_4").css("display","none");
+    $("#side_bar_part_5").css("display","none");
+    }
+}
+
+function left_nav_btn_4(){
+    $("#left_nav_btn_4").attr("class","on");
+
+    $("#left_nav_btn_1").attr("class","");
+    $("#left_nav_btn_2").attr("class","");
+    $("#left_nav_btn_3").attr("class","");
+    $("#left_nav_btn_5").attr("class","");
+
+    if($("#side_bar_part_4").css("display") == 'block'){
+        $("#side_bar").css("display","none");
+        $("#side_bar_part_4").css("display","none");
+        $("#left_nav_btn_4").attr("class","");
+    }
+    else{
+    $("#side_bar").css("display","block");
+    $("#side_bar_part_4").css("display","block");
+    $("#side_bar_part_1").css("display","none");
+    $("#side_bar_part_2").css("display","none");
+    $("#side_bar_part_3").css("display","none");
+    $("#side_bar_part_5").css("display","none");
+    }
+}
+
+function left_nav_btn_5(){
+    $("#left_nav_btn_5").attr("class","on");
+
+    $("#left_nav_btn_1").attr("class","");
+    $("#left_nav_btn_2").attr("class","");
+    $("#left_nav_btn_3").attr("class","");
+    $("#left_nav_btn_4").attr("class","");
+
+    if($("#side_bar_part_5").css("display") == 'block'){
+        $("#side_bar").css("display","none");
+        $("#side_bar_part_5").css("display","none");
+        $("#left_nav_btn_5").attr("class","");
+    }
+    else{
+    $("#side_bar").css("display","block");
+    $("#side_bar_part_5").css("display","block");
+    $("#side_bar_part_1").css("display","none");
+    $("#side_bar_part_2").css("display","none");
+    $("#side_bar_part_3").css("display","none");
+    $("#side_bar_part_4").css("display","none");
+    }
 }
 
 
