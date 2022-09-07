@@ -83,6 +83,8 @@ function left_nav_btn_1(){
         $("#side_bar").css("display","none");
         $("#side_bar_part_1").css("display","none");
         $("#left_nav_btn_1").attr("class","");
+        $("#map_frame").css("width", "calc(100vw - 60px)")
+        
     }
     else{
     $("#side_bar").css("display","block");
@@ -130,6 +132,8 @@ function left_nav_btn_2(){
         $("#side_bar").css("display","none");
         $("#side_bar_part_2").css("display","none");
         $("#left_nav_btn_2").attr("class","");
+        $("#map_frame").css("width", "calc(100vw - 60px)")
+
     }
     else{
     $("#side_bar").css("display","block");
@@ -177,6 +181,8 @@ function left_nav_btn_3(){
         $("#side_bar").css("display","none");
         $("#side_bar_part_3").css("display","none");
         $("#left_nav_btn_3").attr("class","");
+        $("#map_frame").css("width", "calc(100vw - 60px)")
+
     }
     else{
     $("#side_bar").css("display","block");
@@ -224,6 +230,8 @@ function left_nav_btn_4(){
         $("#side_bar").css("display","none");
         $("#side_bar_part_4").css("display","none");
         $("#left_nav_btn_4").attr("class","");
+        $("#map_frame").css("width", "calc(100vw - 60px)")
+
     }
     else{
     $("#side_bar").css("display","block");
@@ -271,6 +279,8 @@ function left_nav_btn_5(){
         $("#side_bar").css("display","none");
         $("#side_bar_part_5").css("display","none");
         $("#left_nav_btn_5").attr("class","");
+        $("#map_frame").css("width", "calc(100vw - 60px)")
+
     }
     else{
     $("#side_bar").css("display","block");
