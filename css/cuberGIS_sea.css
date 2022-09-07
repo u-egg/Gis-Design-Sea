@@ -213,9 +213,10 @@ article{
     height: 100vh;
     border-right: 1px solid #dedede;
     display: none;
+    transition: all 0.2s;
 }
 
-#side_bar .top{
+.top{
     height: 60px;
     background: #10a7a0;
     color: #fff;
@@ -223,8 +224,12 @@ article{
     font-weight: bold;
     line-height: 60px;
     padding-left: 20px;
+    display: block;
 }
 
+.body{
+    display: block;
+}
 .que {
     position: relative;
     height: 46px;
@@ -269,4 +274,39 @@ article{
 
 #side_bar_part_5{
     display: none;
+}
+
+#sea_article{
+    display: none;
+}
+
+.side_nav_close {
+    top: 50%;
+    width: 22px;
+    left: 310px;
+    overflow: hidden;
+    height: 34px;
+    background: url(../asset/slide_btn_off.png) no-repeat center top;
+    line-height: 9999px;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    transition: all 0.3s;
+    border: 1px solid #dedede;
+}
+
+.side_nav_open {
+    top: 50%;
+    left: 60px;
+    width: 22px;
+    height: 34px;
+    overflow: hidden;
+    background: url(../asset/slide_btn_on.png) no-repeat center top;
+    line-height: 9999px;
+    cursor: pointer;
+    z-index: 2;
+    position: absolute;
+    transition: all 0.3s;
+    display: none;
+    border: 1px solid #dedede;
 }

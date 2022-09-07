@@ -40,7 +40,9 @@
         <button class="btn_5"><i class="fa-solid fa-globe"></i></button>
 
     </header>
-    <article>
+
+    <!--'전체' 선택시 나오는 part-->
+    <article id="all_article">
 
         <!--왼쪽 네비게이션-->
         <section id="nav">
@@ -309,12 +311,21 @@
                     </div>
                 </div>
             </div>
+
+            <!--버튼 슬라이드 이벤트-->
+            <a class="side_nav_close" onclick="sied_section_slide();"></a>
+            <a class="side_nav_open" onclick="sied_section_slide();"></a>
+            
         </section>
 
         <!--지도-->
         <section id="map">지도</section>
     </article>
 
+    <!--'대만용' 선택시 나오는 파트-->
+    <article id="sea_article">
+
+    </article>
 
     <!--js-->
     <script type="text/javascript" src="../js/cuberGIS_sea.js"></script>

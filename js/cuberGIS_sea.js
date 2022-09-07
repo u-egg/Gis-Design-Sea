@@ -163,3 +163,41 @@ $(".que").click(function() {
     $(this).next(".anw").stop().slideToggle(300);
     $(this).toggleClass('on').siblings().removeClass('on');
 });
+
+//사이드 버튼 슬라이드 이벤트
+function sied_section_slide(){
+    if ($('#side_bar').css('width') == '250px') {
+        $("#side_bar").css("width", "0")
+        
+        // $("#map").css("width", "calc(100vw - 100px)")
+        $(".top").css("display", "none")
+        $(".body").css("display", "none")
+        
+        $(".side_nav_close").css("left", "60px")
+        $(".side_nav_open").css("left", "60px")
+        setTimeout(function() {
+            $(".side_nav_close").css("display", "none")
+            $(".side_nav_open").css("display", "block")
+          }, 100);
+
+
+    } 
+    else {
+        $("#side_bar").css("width", "250px")
+
+        // $("#map").css("width", "calc(100vw - 450px)")
+
+        setTimeout(function() {
+            $(".top").css("display", "block")
+            $(".body").css("display", "block")
+          }, 150);
+
+        $(".side_nav_close").css("left", "310px")
+        $(".side_nav_open").css("left", "310px")
+        setTimeout(function() {
+            $(".side_nav_close").css("display", "block")
+            $(".side_nav_open").css("display", "none")
+          }, 100);
+    }
+
+}
