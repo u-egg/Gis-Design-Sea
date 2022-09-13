@@ -278,10 +278,10 @@ article{
 
 .side_nav_close {
     top: 50%;
-    width: 22px;
+    width: 23px;
     left: 310px;
     overflow: hidden;
-    height: 34px;
+    height: 33px;
     background: url(../asset/slide_btn_off.png) no-repeat center top;
     line-height: 9999px;
     cursor: pointer;
